@@ -1,0 +1,42 @@
+Category Verb Object (high-level, succinct; <= 50 chars)
+
+# DESCRIPTION (Explain WHY, capture context; wrap at 72 chars)
+#     Add sections like Issue, Fix, ...
+#     Prefer bullet points over detailing
+
+
+# TITLE - What should I write?
+#     Category
+#         What component/feature/code section? e.g. Print, FRE, Win, Mac, Build, Infra, ...
+#     Verb
+#         Fix: Fix an issue e.g. bug, typo, accident, misstatement.
+#         Add: Create a capability e.g. feature, test, dependency.
+#         Drop: Delete a capability e.g. feature, test, dependency.
+#         Bump: Increase the version of something e.g. a dependency.
+#         Build: Change the build process, or tools, or infrastructure.
+#         Start: Begin doing something; e.g. enable a toggle, feature flag, etc.
+#         Stop: End doing something; e.g. disable a toggle, feature flag, etc.
+#         Optimize: A change that MUST be just about performance, e.g. speed up code.
+#         Document: A change that MUST be only in the documentation, e.g. help files.
+#         Refactor: A change that MUST be just refactoring.
+#         Reformat: A change that MUST be just formatting, e.g. change spaces.
+#         Rearrange: A change that MUST be just arranging, e.g. change layout.
+#         Redraw: A change that MUST be just visual, e.g. change a graphic, image, icon, etc.
+#         Reword: A change that MUST be just textual, e.g. change a comment, label, doc, etc.
+#     Object
+#         Depends on your change
+#
+#     Example
+#         Mac Add animated media scrubber in TouchBar
+#
+# DESCRIPTION - What should I write?
+#     Explain WHY, not WHAT, sometimes HOW
+#     Reason and context are the essence of a commit message
+#     Document context -- info you hold in your head undocumented in comments
+#       e.g. going with sorted `vector` instead of a `set` since we found performance
+#            to be better in this specific case, since we've more reads than writes.
+#     Prefer bullet points; use paragraphs for detailing but be succinct
+#     Add relevant links to documentation/reference/spec
+#     If relevant, add sections on
+#         * Test coverage
+#         * Performance / telemetry numbers
