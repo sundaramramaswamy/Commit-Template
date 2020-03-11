@@ -24,7 +24,7 @@ Category Verb Object (high-level, succinct; <= 50 chars)
 #         Redraw: A change that MUST be just visual, e.g. change a graphic, image, icon, etc.
 #         Reword: A change that MUST be just textual, e.g. change a comment, label, doc, etc.
 #     Object
-#         Depends on your change
+#         Depends on your change; be brief
 #
 #     Example
 #         Mac Add animated media scrubber in TouchBar
@@ -36,6 +36,7 @@ Category Verb Object (high-level, succinct; <= 50 chars)
 #       e.g. going with sorted `vector` instead of a `set` since we found performance
 #            to be better in this specific case, since we've more reads than writes.
 #     Prefer bullet points; use paragraphs for detailing but be succinct
+#     Be explicit, avoid relative terms, use absolute terms (e.g. last rel. vs rel. 81)
 #     Add relevant links to documentation/reference/spec
 #     If relevant, add sections on
 #         * Test coverage
