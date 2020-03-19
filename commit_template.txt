@@ -1,4 +1,4 @@
-Category Verb Object (high-level, succinct; <= 50 chars)
+Category: Verb Object (high-level, succinct; <= 50 chars)
 
 # DESCRIPTION (Explain WHY, capture context; wrap at 72 chars)
 #     Add sections like Issue, Fix, ...
@@ -27,7 +27,7 @@ Category Verb Object (high-level, succinct; <= 50 chars)
 #         Depends on your change; be brief
 #
 #     Example
-#         Mac Add animated media scrubber in TouchBar
+#         Mac: Add animated media scrubber in TouchBar
 #
 # DESCRIPTION - What should I write?
 #     Explain WHY, not WHAT, sometimes HOW
